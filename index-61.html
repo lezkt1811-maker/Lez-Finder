@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lezfinder</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#2B1E3D;
+    --bg2:#3A2A52;
+    --card:#F3EBFA;
+    --accent:#E85D8A;
+    --accent2:#7BC9C0;
+    --ink:#2B1E3D;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    min-height:100vh;
+    background: linear-gradient(160deg, var(--bg), var(--bg2));
+    font-family:'IBM Plex Sans', sans-serif;
+    display:flex; justify-content:center;
+    padding: 3rem 1rem;
+  }
+  .wrap{width:100%; max-width:420px;}
+  h1{
+    font-family:'Fraunces', serif;
+    color:#F3EBFA;
+    text-align:center;
+    font-size:2.2rem;
+    margin:0 0 0.3rem;
+  }
+  p.sub{
+    text-align:center;
+    color:#C9B8DE;
+    margin:0 0 2rem;
+    font-size:0.95rem;
+  }
+  .links{display:flex; flex-direction:column; gap:0.9rem;}
+  a.link{
+    display:block;
+    background: var(--card);
+    color: var(--ink);
+    text-decoration:none;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    font-weight:600;
+    font-size:1.02rem;
+    text-align:center;
+    border: 2px solid transparent;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  a.link:hover{ transform: translateY(-2px); border-color: var(--accent); }
+  a.link small{
+    display:block; font-weight:400; font-size:0.78rem; color:#6b5c7e; margin-top:0.2rem;
+  }
+  footer{
+    text-align:center; color:#8B7AA3; font-size:0.75rem; margin-top:2.5rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>lezfinder</h1>
+  <p class="sub">Find me here — Kansas City</p>
+
+  <div class="links">
+    <!-- Replace href="#" below with your real profile links -->
+    <a class="link" href="https://www.facebook.com/share/1BmFowUefW/" target="_blank" rel="noopener">Facebook Dating <small>my Facebook profile</small></a>
+    <a class="link" href="https://pof.com" target="_blank" rel="noopener">Plenty of Fish <small>search for me — Kansas City</small></a>
+    <a class="link" href="https://www.her.co" target="_blank" rel="noopener">HER <small>app for queer women &amp; nonbinary folks — biggest LGBTQ+ dating pool</small></a>
+    <a class="link" href="https://www.lex.lgbt" target="_blank" rel="noopener">Lex <small>text-first app popular with queer women</small></a>
+    <a class="link" href="#" target="_blank" rel="noopener">Add a 5th link <small>replace with anything else — Instagram, OkCupid, etc.</small></a>
+    <a class="link" href="#" target="_blank" rel="noopener">My Facebook Group <small>replace this link with your group's URL</small></a>
+  </div>
+
+  <footer>made with lezfinder ✦ edit anytime</footer>
+</div>
+</body>
+</html>
